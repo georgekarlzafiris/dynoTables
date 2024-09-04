@@ -7,12 +7,12 @@ for($i=0; $i<100;$i++)
     $records[] = array(
         'id' => $i, 
         'item_number' => uniqid('',true),
-        'date' => date('H:i:s A')
+        'date' => date('H:i:s A'),
     );
     $otherRecords[] = array(
         'id' => $i,    
         'name' => 'DT-'.($i*$i*1000),
-        'item_number' => uniqid('IN-',true).($i*$i)
+        'item_number' => uniqid('IN-',true).($i*$i),
     );
 }
 
