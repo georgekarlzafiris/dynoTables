@@ -11,7 +11,7 @@ for($i=0; $i<100;$i++)
         'date' => date('Y-m-d H:i:s')
     );
     $otherRecords[] = array(
-        'id' => $i*2.4,    
+        'id' => $i,    
         'date' => date('Y-m-d H:i:sa')
     );
 }
