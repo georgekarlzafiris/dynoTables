@@ -17,12 +17,7 @@ DynoTables is a dynamic, server-side PHP solution for generating paginated HTML 
 
 ## Installation
 
-1. Clone the repository or download the source code:
-
-    ```bash
-    git clone https://github.com/yourusername/DynoTables.git
-    cd DynoTables
-    ```
+1. Clone the repository or download the source code
 
 2. Ensure your server is configured to serve PHP files.
 
