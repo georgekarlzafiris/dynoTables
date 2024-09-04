@@ -1,4 +1,3 @@
-
 <?php 
 require_once './dynoTables.php';
 $records = [];
@@ -8,11 +7,12 @@ for($i=0; $i<100;$i++)
     $records[] = array(
         'id' => $i, 
         'item_number' => uniqid('',true),
-        'date' => date('Y-m-d H:i:s')
+        'date' => date('H:i:s A')
     );
     $otherRecords[] = array(
         'id' => $i,    
-        'date' => date('Y-m-d H:i:sa')
+        'name' => 'DT-'.($i*$i*1000),
+        'item_number' => uniqid('IN-',true).($i*$i)
     );
 }
 
